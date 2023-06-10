@@ -5,16 +5,12 @@
 
 part of 'news_provider.dart';
 
-// **************************************************************************
-// FreezedGenerator
-// **************************************************************************
 
 T _$identity<T>(T value) => value;
 
 final _privateConstructorUsedError = UnsupportedError(
     'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#custom-getters-and-methods');
 
-/// @nodoc
 mixin _$NewsState {
   bool get isLoading => throw _privateConstructorUsedError;
   NewsModel get newsModel => throw _privateConstructorUsedError;
@@ -24,7 +20,6 @@ mixin _$NewsState {
       throw _privateConstructorUsedError;
 }
 
-/// @nodoc
 abstract class $NewsStateCopyWith<$Res> {
   factory $NewsStateCopyWith(NewsState value, $Res Function(NewsState) then) =
       _$NewsStateCopyWithImpl<$Res, NewsState>;
@@ -32,14 +27,13 @@ abstract class $NewsStateCopyWith<$Res> {
   $Res call({bool isLoading, NewsModel newsModel});
 }
 
-/// @nodoc
+
 class _$NewsStateCopyWithImpl<$Res, $Val extends NewsState>
     implements $NewsStateCopyWith<$Res> {
   _$NewsStateCopyWithImpl(this._value, this._then);
 
-  // ignore: unused_field
+
   final $Val _value;
-  // ignore: unused_field
   final $Res Function($Val) _then;
 
   @pragma('vm:prefer-inline')
